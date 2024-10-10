@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peddy Website</title>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <style>
+        .lato{
+  font-family: "Lato", sans-serif;
+  font-optical-sizing: auto;
+}
+
+    </style>
+    <!-- daisy ui -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.13/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<!-- tailwind -->
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+
+</head>
+<body class="lato">
+    <header>
+        <nav class="w-11/12 mx-auto py-7 flex justify-between items-center">
+            <div class="logo w-[100px] flex gap-2 justify-between items-center">
+                <img src="logo.webp" alt="">
+                <p class="font-bold text-2xl">Peddy</p>
+            </div>
+            <div class="flex justify-between items-center gap-5">
+                <p class="text-base font-normal text-gray-700" >Home</p>
+                <p class="text-base font-normal text-gray-700" >Shop</p>
+                <p class="text-base font-normal text-gray-700" >Contact</p>
+            </div>
+            <div>
+                <i class="fa-regular fa-user border rounded-full p-2 border-gray-400"></i>
+            </div>
+        </nav>
+        <div class="hero">
+            <div class="hero-content text-center py-4">
+              <div class="max-w-lg">
+                <h4 class="text-gray-500 font-bold mb-3">Bringing Families Together ❤️‍🔥</h4>
+
+                <h1 class="text-4xl font-extrabold"> 
+                    Your Path to Adoption <br>
+                     Starts Here</h1>
+                <p class="py-6 text-gray-700 font-normal ">
+                    Adopting pets not only gives them a loving home but also enriches your life with companionship and joy. It's a wonderful way to save an animal and create a lifelong bond.
+                </p>
+                <button class="btn bg-[#0E7A81] text-white mb-3">View More</button>
+              <img src="pet.webp" alt="">
+            </div>
+            </div>
+          </div>
+    </header>
+    <main>
+        <div class="text-center max-w-lg mx-auto py-7">
+            <h2 class="font-bold text-4xl mb-4">Adopt  Your  Best Friend</h2>
+            <p class="text-gray-600">Adopting pets not only gives them a loving home but also enriches your life with companionship and joy. It's a wonderful way to save an animal and create a lifelong bond.</p>
+        </div>
+    </main>
+    <script src="https://kit.fontawesome.com/9744e4778c.js" crossorigin="anonymous"></script>
+    <script src="js/pet.js"></script>
+</body>
+</html>
